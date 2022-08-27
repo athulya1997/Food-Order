@@ -7,7 +7,7 @@ ul{
     padding: 0;
 }
 ul li a{
-    height: 23rem;
+    height: 22rem;
     width: 20rem;
     border: 1px solid  whitesmoke;
     border-radius: 1rem;
@@ -22,14 +22,14 @@ li a:hover{
     cursor: pointer;
 }
 .content{  
-    padding-left:1rem;
+    padding:1rem 1rem;
     position:relative;
 }
 .favorite{
     position:absolute;
-    top:.5rem;
+    top:1rem;
     right:1rem;
-    font-size:1rem;
+    font-size:.9rem;
 }
 .favorite.not{
     color:black;
