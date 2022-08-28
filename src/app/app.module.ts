@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { NgxStarRatingModule } from 'ngx-star-rating';
 import { SearchComponent } from './search/search.component';
 import { TagsComponent } from './tags/tags.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { FoodpageComponent } from './foodpage/foodpage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +17,8 @@ import { TagsComponent } from './tags/tags.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
+    CartPageComponent,
+    FoodpageComponent,
     
   ],
   imports: [
